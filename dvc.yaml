@@ -1,0 +1,4 @@
+dvc stage add -n preprocess \
+  -d scripts/preprocess_data.py -d data/MachineLearningRating_v3.txt \
+  -o data/processed/acis_processed.csv \
+  python scripts/preprocess_data.py

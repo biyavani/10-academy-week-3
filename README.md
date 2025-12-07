@@ -24,3 +24,14 @@ The goal is to analyse historical car insurance claim data to:
 ├── tests/                # Unit tests
 ├── requirements.txt      # Project dependencies
 └── README.md             # Project documentation
+
+---
+## Data and DVC
+
+Raw data is stored in `data/raw` and is tracked with DVC.
+
+To get the data after cloning:
+
+```bash
+pip install -r requirements.txt
+dvc pull
